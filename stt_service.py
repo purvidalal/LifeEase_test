@@ -6,6 +6,5 @@ def speech_to_text(audio_file):
     
     with open(audio_file, 'rb') as audio:
         files = [('file', (audio_file, audio, 'audio/wav'))]
-        headers = {'api-subscription-key': 'e8aeedfc-f86d-4f4d-995f-3b551545f7be'}
         response = requests.post(url, headers=headers, data=payload, files=files)
         return response.json()['transcript']
