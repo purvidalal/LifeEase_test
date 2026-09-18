@@ -18,7 +18,6 @@ def text_to_speech(text, speaker="meera"):
         "enable_preprocessing": True,
         "model": "bulbul:v1"
     }
-    headers = {'api-subscription-key': 'e8aeedfc-f86d-4f4d-995f-3b551545f7be'}
     
     try:
         response = requests.post(url, json=payload, headers=headers)
