@@ -3,15 +3,9 @@ import re
 from datetime import datetime, timedelta
 import pytz
 import os
-os.environ["OPENAI_API_KEY"] = "sk-FnkWOsdYrUaPc5t3PVs1zcp0w7ag5lOtn2EsrzULMpT3BlbkFJQaLK6EfGogyhHrSl3qEmgU8mDHHBcubT4s_RaHz0IA"
-from openai import OpenAI
 
 # Instantiate the OpenAI client
 client = OpenAI()
-
-# API Keys and Configurations
-GOOGLE_API_KEY = 'AIzaSyD-3fOpAz4oO01d27GUuomrjqEAifbCYDU'  # Replace with your Google API key
-GOOGLE_CX = '71a4cf86046244947'  # Replace with your Custom Search Engine ID
 
 # Function to classify the query using GPT-4
 def classify_query_with_gpt(query):
