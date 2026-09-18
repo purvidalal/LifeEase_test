@@ -9,9 +9,6 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from tts_service import text_to_speech
 from openai import OpenAI
 
-# **🔹 Set OpenAI API Key**
-os.environ["OPENAI_API_KEY"] = "sk-FnkWOsdYrUaPc5t3PVs1zcp0w7ag5lOtn2EsrzULMpT3BlbkFJQaLK6EfGogyhHrSl3qEmgU8mDHHBcubT4s_RaHz0IA"
-client = OpenAI()
 
 FLASK_API_URL = "http://127.0.0.1:5000/process-trigger-response"
 
