@@ -5,11 +5,6 @@ from openai import OpenAI
 # Set up logging for debugging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Set up the OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-FnkWOsdYrUaPc5t3PVs1zcp0w7ag5lOtn2EsrzULMpT3BlbkFJQaLK6EfGogyhHrSl3qEmgU8mDHHBcubT4s_RaHz0IA"
-
-# Instantiate the OpenAI client
-client = OpenAI()
 
 MAX_CHARS = 500  # API input character limit
 
