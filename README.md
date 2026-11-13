@@ -1,6 +1,4 @@
-# LifeEase: Voice-First AI Companion for Elderly Users
-
-> **Note:** This repository is an approved, scaled-down demo of LifeEase, a patented AI eldercare assistant I built end to end as the first AI/ML intern at Boaient Technology Solutions (Sydney, 2024–2025). The production system, its data and its trained models are proprietary and not included here.
+# LifeEase:
 
 **Live demo:** [lifeease.vercel.app](https://lifeease.vercel.app)
 
