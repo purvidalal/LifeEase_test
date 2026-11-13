@@ -1,6 +1,9 @@
 import requests
 import base64
 import logging
+from config import API_KEYS
+
+headers = {"api-subscription-key": API_KEYS["sarvam"], "Content-Type": "application/json"}
 
 # Set up logging for debugging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

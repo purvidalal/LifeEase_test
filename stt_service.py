@@ -1,4 +1,7 @@
 import requests
+from config import API_KEYS
+
+headers = {"api-subscription-key": API_KEYS["sarvam"]}
 
 def speech_to_text(audio_file):
     url = "https://api.sarvam.ai/speech-to-text"

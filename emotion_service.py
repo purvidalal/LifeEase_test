@@ -1,4 +1,5 @@
 import os
+from openai import OpenAI
  
 # Instantiate the OpenAI client
 client = OpenAI()

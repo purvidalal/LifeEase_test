@@ -3,6 +3,10 @@ import re
 from datetime import datetime, timedelta
 import pytz
 import os
+from openai import OpenAI
+from config import API_KEYS, GOOGLE_CX
+
+GOOGLE_API_KEY = API_KEYS["google"]
 
 # Instantiate the OpenAI client
 client = OpenAI()
@@ -116,7 +120,7 @@ def get_weather(location_name, country_hint="India"):
     Returns:
         str: A formatted weather report in Hindi or an error message.
     """
-    api_key = "7107fce10c2049fd808171110242511"
+    api_key = API_KEYS["weather"]
     base_url = "http://api.weatherapi.com/v1/current.json"
     
     # Combine location name with country hint for better accuracy
