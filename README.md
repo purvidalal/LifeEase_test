@@ -1,7 +1,5 @@
 # LifeEase:
 
-**Live demo:** [lifeease.vercel.app](https://lifeease.vercel.app)
-
 ## The problem
 
 Many elderly people live alone, struggle with typed interfaces, and need help that is both **personal** (their routine, family, preferences) and **safe** (health questions answered carefully, never invented). LifeEase lets them simply *talk*, in Hindi, to a companion that understands what kind of help they need and answers in a natural voice.
